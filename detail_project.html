@@ -1,0 +1,407 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project Info</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav">
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav">
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">
+          Contact
+        </button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+    <div class="container py-5">
+      <div
+        class="container section-title aos-init aos-animate"
+        data-aos="fade-up">
+        <h2>Portfolio Details</h2>
+        <p>
+          In this project, the team focused on a structured process, starting
+          from research, planning, design, to final implementation. By utilizing
+          the latest technologies and best practices, the project was
+          successfully executed efficiently and effectively.
+        </p>
+      </div>
+      <div class="row g-5 align-items-start">
+        <!-- <div class="carousel-container col-md-7">
+          <div class="carousel-images">
+            <img
+              src="images/2048game.png"
+              class="carousel-image active"
+              alt="Image 1" />
+            <img
+              src="images/sbi-omfs-web-app.png"
+              class="carousel-image"
+              alt="Image 2" />
+            <img
+              src="images/banner-01.webp"
+              class="carousel-image"
+              alt="Image 3" />
+            <img
+              src="images/curn-icon.png"
+              class="carousel-image"
+              alt="Image 4" />
+          </div>
+          <div class="carousel-dots">
+            <div class="dot active" data-index="0"></div>
+            <div class="dot" data-index="1"></div>
+            <div class="dot" data-index="2"></div>
+            <div class="dot" data-index="3"></div>
+          </div>
+        </div> -->
+        <div class="carousel-container col-md-7">
+          <div class="carousel-images" id="carouselImages"></div>
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+
+        <!-- Right: Info -->
+        <div class="col-md-5">
+          <div class="info-card mb-4 portofolio-info">
+            <h5 class="fw-bold mb-3">Project information</h5>
+            <p>
+              <strong>Project Name:</strong> <span id="project_name"></span>
+            </p>
+            <p>
+              <strong>Category:</strong> <span id="project_category"></span>
+            </p>
+            <p><strong>Client:</strong> <span id="project_client"></span></p>
+            <p>
+              <strong>Project date:</strong> <span id="project_date"></span>
+            </p>
+            <p><strong>Tech Stack:</strong> <span id="tech_stack"></span></p>
+            <p>
+              <strong>Project URL:</strong>
+              <a
+                href="https://www.example.com"
+                target="_blank"
+                class="text-decoration-none text-info"
+                id="project_url"></a>
+            </p>
+          </div>
+
+          <h4 class="fw-bold">Project Description</h4>
+          <p class="text-muted" id="project_details">
+            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque
+            inventore commodi labore quia quia. Exercitationem repudiandae
+            officiis neque suscipit non officia eaque itaque enim. Voluptatem
+            officia accusantium nesciunt est omnis tempora consectetur
+            dignissimos. Sequi nulla at esse enim cum deserunt eius.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2025 Franky Portofolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS library javascript link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get("id");
+    console.log(id); // 1
+
+    /** @format */
+    const data = [
+      {
+        id: "1",
+        name: "Tic Tac Toe Game",
+        category: "Game",
+        client: "Personal Project",
+        project_date: "",
+        project_url: "https://tictactoe-franky19.vercel.app",
+        project_details: `
+     <p>
+  This project is a simple <strong>Tic Tac Toe (X and O)</strong> game developed using 
+  <em>HTML</em>, <em>CSS</em>, and <em>JavaScript</em>. The game is played by two players taking turns 
+  marking boxes in a 3x3 grid. The objective of the game is to be the first player to align three identical 
+  symbols in a row, column, or diagonal.
+</p>
+<h2>Main Features:</h2>
+<ul>
+  <li>Interactive user interface using HTML and CSS</li>
+  <li>Game logic fully handled by JavaScript</li>
+  <li>Automatic detection of a winner or a draw</li>
+  <li>Option to reset and replay the game</li>
+  <li>Responsive design and easy to play on various devices</li>
+</ul>
+<h2>Learning Objectives:</h2>
+<p>
+  This project aims to help practice basic skills in front-end web development, including:
+</p>
+<ul>
+  <li>Understanding HTML structure</li>
+  <li>Applying styling using CSS</li>
+  <li>Implementing logic and dynamic interaction using JavaScript</li>
+</ul>
+<p>
+  By completing this project, beginner developers can understand how to build a simple interactive web application 
+  without using additional libraries or frameworks.
+</p>
+
+    `,
+        tech_stack: "HTML, CSS, JavaScript",
+        images_carousel: [
+          { src: "images/tictactoe/images-1.png", alt: "Image 1" },
+          { src: "images/tictactoe/images-2.png", alt: "Image 2" },
+          { src: "images/tictactoe/images-3.png", alt: "Image 3" },
+        ],
+      },
+      {
+        id: "2",
+        name: "Todo List simple",
+        category: "Web App",
+        client: "Personal Project",
+        project_date: "",
+        project_url: "https://my-todo-nextjs.vercel.app/",
+        project_details: "",
+        tech_stack: "NextJS, JavaScript, CSS",
+        images_carousel: [{ src: "images/todo-list.png", alt: "Image 1" }],
+      },
+      {
+        id: "3",
+        name: "SBI OMFS",
+        category: "Web App",
+        client: "Dr Kai Lee",
+        project_date: "",
+        project_url: "https://sbi-omfs.com.au/",
+        project_details: "",
+        tech_stack: "ReactJS, JavaScript / TypeScript, AWS S3, CSS",
+        images_carousel: [
+          { src: "images/sbi-omfs-web-app.png", alt: "Image 1" },
+        ],
+      },
+      {
+        id: "4",
+        name: "SBI OMFS Admin Panel",
+        category: "Website",
+        client: "Dr Kai Lee",
+        project_date: "",
+        project_url: "https://sbi-omfs.com.au/admin",
+        project_details: "",
+        tech_stack: "ReactJS, JavaScript / TypeScript, AWS S3, ChartJS, CSS",
+        images_carousel: [{ src: "images/sbi-admin.png", alt: "Image 1" }],
+      },
+      {
+        id: "5",
+        name: "Company Profile Dr Kai Lee",
+        category: "Website",
+        client: "Dr Kai Lee",
+        project_date: "",
+        project_url: "https://drkaileeoms.com.au/",
+        project_details: "",
+        tech_stack: "ReactJS, JavaScript / TypeScript, AWS S3, AWS Lambda, CSS",
+        images_carousel: [{ src: "images/compre-drkai.png", alt: "Image 1" }],
+      },
+      {
+        id: "6",
+        name: "Admin Panel Company Profile Dr Kai",
+        category: "Website",
+        client: "Dr Kai Lee",
+        project_date: "",
+        project_url: "https://admin-beta.drkailee.com/",
+        project_details: "",
+        tech_stack:
+          "ReactJS, JavaScript / TypeScript, AWS S3, AWS Lambda, CSS,SCSS/SASS",
+        images_carousel: [{ src: "images/admin-compre.png", alt: "Image 1" }],
+      },
+      {
+        id: "7",
+        name: "Check Tense / Check Grammar",
+        category: "Website",
+        client: "Personal Project",
+        project_date: "",
+        project_url: "https://my-grammar-2igcy2wln-franky19.vercel.app/",
+        project_details: "",
+        tech_stack: "ReactJS, TypeScript, Open AI Api, CSS",
+        images_carousel: [{ src: "images/check-grammar.png", alt: "Image 1" }],
+      },
+      {
+        id: "8",
+        name: "Comic List",
+        category: "Website",
+        client: "Personal Project",
+        project_date: "",
+        project_url: "https://my-grammar-2igcy2wln-franky19.vercel.app/",
+        project_details: "",
+        tech_stack: "ReactJS, TypeScript, HTML, CSS, Graphql, ",
+        images_carousel: [{ src: "images/skuynime.png", alt: "Image 1" }],
+      },
+      {
+        id: "9",
+        name: "CMS Admin Panel For Mobile Apps",
+        category: "Website",
+        client: "Personal Project",
+        project_date: "20 September 2024 -  26 Mei 2025",
+        project_url: "https://tutureels.com/admin",
+        project_details: "",
+        tech_stack:
+          "NextJS, TypeScript, VPS, NGINX, SASS, CSS,React Context API, Monorepo, Turbopack, Axios, Tailwindcss",
+        images_carousel: [{ src: "images/tutureels.png", alt: "Image 1" }],
+      },
+      {
+        id: "10",
+        name: "Tutureels Apps",
+        category: "apps",
+        client: "Personal Project",
+        project_date: "20 September 2024 -  26 Mei 2025",
+        project_url:
+          "https://play.google.com/store/apps/details?id=com.pitto.app",
+        project_details: "",
+        tech_stack: "React Native, Expo",
+        images_carousel: [{ src: "images/tutureels-app.jpeg", alt: "Image 1" }],
+      },
+    ];
+    const filterData = data?.find((data) => data?.id === id);
+    const carouselImagesEl = document.getElementById("carouselImages");
+    const carouselDotsEl = document.getElementById("carouselDots");
+
+    const images_carousel = filterData?.images_carousel || [];
+
+    // Map to create image elements
+    const imageElements = images_carousel.map((img, index) => {
+      const imageEl = document.createElement("img");
+      imageEl.src = img.src;
+      imageEl.alt = img.alt;
+      imageEl.className = "carousel-image";
+      if (index === 0) imageEl.classList.add("active");
+      return imageEl;
+    });
+
+    // Map to create dot elements
+    const dotElements = images_carousel.map((_, index) => {
+      const dotEl = document.createElement("div");
+      dotEl.className = "dot";
+      dotEl.dataset.index = index;
+      if (index === 0) dotEl.classList.add("active");
+      return dotEl;
+    });
+
+    // Append all image elements
+    imageElements.forEach((el) => carouselImagesEl.appendChild(el));
+
+    // Append all dot elements
+
+    document.getElementById("project_category").innerHTML =
+      filterData?.category;
+    document.getElementById("project_client").innerHTML = filterData?.client;
+    document.getElementById("project_client").innerHTML = filterData?.client;
+    document.getElementById("project_url").innerHTML = filterData?.project_url;
+    const link = document.getElementById("project_url");
+    link.setAttribute("href", filterData?.project_url);
+    document.getElementById("project_details").innerHTML =
+      filterData?.project_details;
+    document.getElementById("tech_stack").innerHTML = filterData?.tech_stack;
+    document.getElementById("project_name").innerHTML = filterData?.name;
+    document.getElementById("project_date").innerHTML =
+      filterData?.project_date;
+
+    const dots = document.querySelectorAll(".dot");
+    const images = document.querySelectorAll(".carousel-image");
+
+    let currentIndex = 0;
+    let intervalTime = 3000; // 3 seconds
+
+    function updateCarousel(index) {
+      dots.forEach((d) => d.classList.remove("active"));
+      images.forEach((img) => img.classList.remove("active"));
+      dots[index].classList.add("active");
+      images[index].classList.add("active");
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % images.length;
+      updateCarousel(currentIndex);
+    }
+
+    if (images_carousel?.length > 1) {
+      let autoSlide = setInterval(nextSlide, intervalTime);
+      dotElements.forEach((el) => carouselDotsEl.appendChild(el));
+      dots.forEach((dot) => {
+        dot.addEventListener("click", () => {
+          clearInterval(autoSlide); // stop auto-slide on manual click
+          currentIndex = parseInt(dot.getAttribute("data-index"));
+          updateCarousel(currentIndex);
+          autoSlide = setInterval(nextSlide, intervalTime); // restart auto-slide
+        });
+      });
+    }
+  </script>
+</html>
