@@ -218,7 +218,43 @@ const data = [
     client: "Personal Project",
     project_date: "",
     project_url: "https://my-todo-nextjs.vercel.app/",
-    project_details: "",
+    project_details: `<p>
+    The <strong>To-Do List Application</strong> is a simple and intuitive task management tool designed to help users organize their daily activities effectively.
+    This project allows users to create, read, update, and delete (CRUD) tasks in a streamlined and user-friendly interface.
+    The main goal is to boost productivity by enabling users to track their responsibilities and prioritize tasks.
+  </p>
+
+  <h2>🎯 Features:</h2>
+  <ul>
+    <li>✅ Add new tasks with a title and optional description.</li>
+    <li>✏️ Edit existing tasks.</li>
+    <li>🗑️ Delete tasks when completed or no longer needed.</li>
+    <li>📋 Mark tasks as completed/incomplete.</li>
+    <li>🔍 Filter tasks by status (All, Completed, Incomplete).</li>
+    <li>💾 Persistent data storage using local storage or backend database.</li>
+  </ul>
+
+  <h2>🛠️ Technologies Used:</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript (or React.js for a modern SPA)</li>
+    <li><strong>Backend (Optional):</strong> Node.js + Express.js (or Firebase/another BaaS)</li>
+    <li><strong>Database (Optional):</strong> MongoDB / Firebase Firestore / LocalStorage</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Students managing school assignments</li>
+    <li>Professionals organizing work tasks</li>
+    <li>Anyone looking to manage daily to-dos efficiently</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Practice implementing CRUD functionality.</li>
+    <li>Understand state management in a UI.</li>
+    <li>Learn how to persist data using local or cloud-based storage.</li>
+    <li>Build responsive and accessible user interfaces.</li>
+  </ul>`,
     tech_stack: "NextJS, JavaScript, CSS",
     images_carousel: [{ src: "images/todo-list.png", alt: "Image 1" }],
   },
@@ -229,7 +265,34 @@ const data = [
     client: "Dr Kai Lee",
     project_date: "",
     project_url: "https://sbi-omfs.com.au/",
-    project_details: "",
+    project_details: `<p>
+   To development a website survey of maxilofacial fractional on a clinic or hospital
+  </p>
+
+  <h2>🎯 Features:</h2>
+  <ul>
+  <li>Register User</li>
+  <li>online survey user</li>
+  <li>sending user info about surve</li>
+  </ul>
+
+  <h2>🛠️ Technologies Used:</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript (or React.js for a modern SPA), typescript / javascript</li>
+    <li><strong>Backend (Optional):</strong> Node.js + Express.js </li>
+    <li><strong>Database (Optional):</strong> MongoDB / POSTGRESS</li>
+    <li><strong>Cloud compung</strong> : AWS SERVICES</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Alcohol used disorder</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Decrement alcohol used for customer</li>
+  </ul>`,
     tech_stack: "ReactJS, JavaScript / TypeScript, AWS S3, CSS",
     images_carousel: [{ src: "images/sbi-omfs-web-app.png", alt: "Image 1" }],
   },
@@ -240,7 +303,33 @@ const data = [
     client: "Dr Kai Lee",
     project_date: "",
     project_url: "https://sbi-omfs.com.au/admin",
-    project_details: "",
+    project_details: `<p>
+   To development a website admin panel for survey of maxilofacial fractional on a clinic or hospital
+  </p>
+
+  <h2>🎯 Features:</h2>
+  <ul>
+  <li>Register new clinic</li>
+  <li>add or updated survey for web user</li>
+  </ul>
+
+  <h2>🛠️ Technologies Used:</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript (or React.js for a modern SPA), typescript / javascript</li>
+    <li><strong>Backend (Optional):</strong> Node.js + Express.js </li>
+    <li><strong>Database (Optional):</strong> MongoDB / POSTGRESS</li>
+    <li><strong>Cloud compung</strong> : AWS SERVICES</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Clinic</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Add new clinic</li>
+  </ul>`,
     tech_stack: "ReactJS, JavaScript / TypeScript, AWS S3, ChartJS, CSS",
     images_carousel: [{ src: "images/sbi-admin.png", alt: "Image 1" }],
   },
@@ -249,7 +338,49 @@ const data = [
     name: "Company Profile Dr Kai Lee",
     category: "Website",
     client: "Dr Kai Lee",
-    project_date: "",
+    project_date: ` <p>
+    The <strong>Dr. Kai Lee Company Profile Website</strong> is a professional and elegant digital platform designed to showcase Dr. Kai Lee’s expertise, services, and achievements.
+    This website serves as a comprehensive profile that reflects the credibility, values, and professionalism of Dr. Kai Lee, making it easier for patients, collaborators, and the general public to connect and engage.
+  </p>
+  <p>
+    The goal is to establish a strong online presence that highlights medical qualifications, service offerings, and key milestones in a clean and user-friendly layout.
+  </p>
+
+  <h2>🎯 Features:</h2>
+  <ul>
+    <li>👤 <strong>About Section</strong> – A detailed biography, educational background, and professional journey of Dr. Kai Lee.</li>
+    <li>🩺 <strong>Services Page</strong> – A clear overview of medical specialties, treatments, and consultation services.</li>
+    <li>🏆 <strong>Achievements Section</strong> – Recognition, certifications, and awards received.</li>
+    <li>📸 <strong>Media & Gallery</strong> – Photos, video content, or media features showcasing public appearances or work environment.</li>
+    <li>📰 <strong>News or Blog Section</strong> – A space for sharing updates, medical articles, or health tips.</li>
+    <li>📞 <strong>Contact Page</strong> – Includes a contact form, Google Maps location, email address, phone number, and social media links.</li>
+    <li>🌐 <strong>Multilingual Support</strong> – Optional multi-language feature to reach an international audience.</li>
+  </ul>
+
+  <h2>🛠️ Technologies Used:</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript (or frameworks like React.js / Next.js)</li>
+    <li><strong>Backend (optional):</strong> Node.js with Express.js, or CMS platforms like WordPress, Strapi, or Sanity</li>
+    <li><strong>Styling:</strong> Tailwind CSS, Bootstrap, or custom SCSS</li>
+    <li><strong>Hosting:</strong> Vercel, Netlify, or traditional web hosting services</li>
+    <li><strong>Extras:</strong> SEO Optimization, Responsive Design, and Accessibility Compliance</li>
+  </ul>
+
+  <h2>👥 Target Audience:</h2>
+  <ul>
+    <li>New and existing patients seeking information</li>
+    <li>Medical professionals and potential collaborators</li>
+    <li>Press and media representatives</li>
+    <li>Healthcare organizations and academic institutions</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Establish a trusted and modern online presence for Dr. Kai Lee.</li>
+    <li>Communicate services, credentials, and philosophy clearly.</li>
+    <li>Improve patient engagement and accessibility through online contact options.</li>
+    <li>Build brand recognition and digital authority in the medical field.</li>
+  </ul>`,
     project_url: "https://drkaileeoms.com.au/",
     project_details: "",
     tech_stack: "ReactJS, JavaScript / TypeScript, AWS S3, AWS Lambda, CSS",
@@ -260,7 +391,49 @@ const data = [
     name: "Admin Panel Company Profile Dr Kai",
     category: "Website",
     client: "Dr Kai Lee",
-    project_date: "",
+    project_date: ` <p>
+    The <strong>Admin Panel for Dr. Kai Lee</strong> is a secure and user-friendly dashboard system that allows administrators and authorized staff to manage content, monitor activity, and oversee key operations on the main website. 
+    This panel provides full control over data such as patient inquiries, blog articles, services, media, and more.
+  </p>
+  <p>
+    It is designed with efficiency, security, and usability in mind to ensure smooth backend management without technical complexity.
+  </p>
+
+  <h2>🎯 Key Features:</h2>
+  <ul>
+    <li>🔐 <strong>Secure Admin Login</strong> – Authentication system with role-based access (e.g., Admin, Editor).</li>
+    <li>📄 <strong>Content Management</strong> – Easily manage About Page, Services, Achievements, and Media Gallery.</li>
+    <li>✍️ <strong>Blog Post Management</strong> – Create, edit, publish, or delete blog articles.</li>
+    <li>📥 <strong>Contact Submissions</strong> – View and respond to contact form submissions or appointment requests.</li>
+    <li>📊 <strong>Dashboard Analytics</strong> – View basic traffic stats, form submissions, and activity logs.</li>
+    <li>🌐 <strong>Language Manager</strong> – Optional multi-language content support.</li>
+    <li>⚙️ <strong>Settings</strong> – Manage social links, SEO meta tags, site configurations, and more.</li>
+  </ul>
+
+  <h2>🛠️ Technologies Used:</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript (React.js or Next.js with Admin Template)</li>
+    <li><strong>Backend:</strong> Node.js + Express.js </li>
+    <li><strong>Database:</strong> MongoDB, PostgreSQL</li>
+    <li><strong>Authentication:</strong> JWT / OAuth</li>
+    <li><strong>Dashboard UI:</strong> Tailwind CSS / Material UI / Bootstrap Admin Panel</li>
+    <li><strong>Hosting:</strong> Vercel, Heroku, DigitalOcean, or Firebase Hosting</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Dr. Kai Lee and personal administrative staff</li>
+    <li>Content editors and marketing team</li>
+    <li>Clinic managers and support staff</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Enable non-technical users to manage the website content effectively.</li>
+    <li>Provide a centralized system for patient inquiries and service updates.</li>
+    <li>Enhance security and control over website operations.</li>
+    <li>Support growth with scalability and performance optimization.</li>
+  </ul>`,
     project_url: "https://admin-beta.drkailee.com/",
     project_details: "",
     tech_stack:
@@ -285,7 +458,46 @@ const data = [
     client: "Personal Project",
     project_date: "",
     project_url: "https://my-grammar-2igcy2wln-franky19.vercel.app/",
-    project_details: "",
+    project_details: ` <p>
+    The <strong>Comic List</strong> is a responsive and interactive web application that allows users to explore, search, and manage a collection of comic books. Built using modern web technologies, the app provides an intuitive user experience for comic enthusiasts to browse by genre, author, title, or publisher using a fast and efficient GraphQL API.
+  </p>
+  <p>
+    The main goal of this project is to deliver a high-performance, user-friendly platform for accessing and organizing comics, whether for casual readers or collectors.
+  </p>
+
+  <h2>🎯 Key Features:</h2>
+  <ul>
+    <li>📚 Browse a dynamic list of comics with cover images and key details.</li>
+    <li>🔍 Filter and search comics by title, author, or category.</li>
+    <li>📖 View detailed pages for each comic including synopsis, release date, and author info.</li>
+    <li>🗂️ Favorite or bookmark comics for later reading.</li>
+    <li>⚡ Fast data retrieval using GraphQL queries.</li>
+    <li>📱 Responsive design for desktop, tablet, and mobile devices.</li>
+  </ul>
+
+  <h2>🛠️ Tech Stack:</h2>
+  <ul>
+    <li><strong>Frontend:</strong> ReactJS with TypeScript</li>
+    <li><strong>Markup & Styling:</strong> HTML, CSS (or Tailwind CSS / Styled Components)</li>
+    <li><strong>Data Layer:</strong> GraphQL (Apollo Client)</li>
+    <li><strong>State Management:</strong> React Context API or Apollo Cache</li>
+    <li><strong>Optional Backend:</strong> GraphQL Server (Node.js / Hasura / GraphCMS)</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Comic book readers and collectors</li>
+    <li>Fans of digital storytelling and art</li>
+    <li>Users looking to organize and track their comic reading lists</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Deliver a high-performance, scalable comic browsing experience.</li>
+    <li>Leverage GraphQL for efficient and flexible data fetching.</li>
+    <li>Implement clean UI/UX design using modern web standards.</li>
+    <li>Provide a base that can be expanded into a larger comic or media tracking platform.</li>
+  </ul>`,
     tech_stack: "ReactJS, TypeScript, HTML, CSS, Graphql, ",
     images_carousel: [{ src: "images/skuynime.png", alt: "Image 1" }],
   },
@@ -296,7 +508,49 @@ const data = [
     client: "Personal Project",
     project_date: "20 September 2024 -  26 Mei 2025",
     project_url: "https://tutureels.com/admin",
-    project_details: "",
+    project_details: ` <p>
+    The <strong>Admin Panel CMS</strong> is a robust and scalable content management system designed to manage digital assets including comics, novels, and films.
+    Built for performance and maintainability, the system enables content creators and administrators to manage catalogs, publish content, organize metadata, and handle media assets all in one place.
+  </p>
+  <p>
+    With a focus on performance, developer experience, and modern web standards, this CMS is powered by a monorepo architecture using Turbopack and designed to scale with production needs.
+  </p>
+
+  <h2>🎯 Key Features:</h2>
+  <ul>
+    <li>🗂️ <strong>Content Manager</strong> – Create, update, and categorize comics, novels, and films with tags, genres, and status.</li>
+    <li>📦 <strong>Media Upload</strong> – Upload cover images, banners, and video trailers via secure endpoints.</li>
+    <li>🧠 <strong>React Context API</strong> – Global state management for UI and session handling.</li>
+    <li>🔍 <strong>Search & Filter</strong> – Filter content by category, release status, popularity, and update date.</li>
+    <li>🌐 <strong>SEO & Slugs</strong> – Auto-generate readable and optimized URLs for content details.</li>
+    <li>📊 <strong>Dashboard Overview</strong> – Visual stats on active content, uploads, and user actions.</li>
+    <li>🛡️ <strong>Authentication</strong> – Role-based access for admin, editor, and viewer roles.</li>
+  </ul>
+
+  <h2>🛠️ Technology Stack:</h2>
+  <ul>
+    <li><strong>Frontend Framework:</strong> <code>Next.js</code> with <code>TypeScript</code></li>
+    <li><strong>Styling:</strong> <code>Tailwind CSS</code>, <code>SASS</code>, and <code>CSS Modules</code></li>
+    <li><strong>State Management:</strong> <code>React Context API</code></li>
+    <li><strong>Data Handling:</strong> <code>Axios</code> for RESTful API communication</li>
+    <li><strong>Build System:</strong> <code>Monorepo</code> with <code>Turbopack</code> for efficient bundling and dev performance</li>
+    <li><strong>Hosting:</strong> Deployed on a dedicated <code>VPS</code> with <code>NGINX</code> as a reverse proxy</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Provide a clean and responsive admin dashboard to manage multiple content types.</li>
+    <li>Optimize deployment and development using monorepo and Turbopack.</li>
+    <li>Implement scalable frontend architecture using Next.js + TypeScript.</li>
+    <li>Ensure fast, secure, and SEO-friendly content management.</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Content editors and curators for comics, novels, and films</li>
+    <li>Media publishers managing digital libraries</li>
+    <li>Admin teams for online reading or streaming platforms</li>
+  </ul>`,
     tech_stack:
       "NextJS, TypeScript, VPS, NGINX, SASS, CSS,React Context API, Monorepo, Turbopack, Axios, Tailwindcss",
     images_carousel: [{ src: "images/tutureels.png", alt: "Image 1" }],
@@ -308,7 +562,48 @@ const data = [
     client: "Personal Project",
     project_date: "20 September 2024 -  26 Mei 2025",
     project_url: "https://play.google.com/store/apps/details?id=com.pitto.app",
-    project_details: "",
+    project_details: `<p>
+    <strong>Tutureels</strong> is a mobile content application that offers users a rich and immersive experience for discovering, reading, and watching curated content across three categories: movies, films, and novels.
+    Designed for storytelling enthusiasts, the app allows users to explore a wide library of visual and written narratives from various genres and cultures.
+  </p>
+  <p>
+    The app is developed using <strong>React Native</strong> and powered by <strong>Expo</strong> for rapid cross-platform development, making it accessible on both Android and iOS devices with a smooth and responsive UI.
+  </p>
+
+  <h2>🎯 Core Features:</h2>
+  <ul>
+    <li>🎬 <strong>Movie & Film Catalog</strong> – Browse trailers, watch content (if allowed), and read synopses.</li>
+    <li>📖 <strong>Novel Library</strong> – Read digital novels with adjustable text size, night mode, and bookmarks.</li>
+    <li>🔍 <strong>Search & Filter</strong> – Find content by genre, title, author, director, or release year.</li>
+    <li>❤️ <strong>Favorites & Watchlist</strong> – Save content for later and manage your personal list.</li>
+    <li>🧠 <strong>Recommendations</strong> – AI-powered or curated suggestions based on user behavior or preferences.</li>
+    <li>🌐 <strong>Offline Access</strong> – Optional feature to download and read novels offline.</li>
+  </ul>
+
+  <h2>🛠️ Tech Stack:</h2>
+  <ul>
+    <li><strong>Framework:</strong> React Native</li>
+    <li><strong>Development Platform:</strong> Expo</li>
+    <li><strong>Backend (optional):</strong> Firebase / Node.js + Express</li>
+    <li><strong>Database:</strong> Firestore / SQLite / Supabase</li>
+    <li><strong>API:</strong> TMDB API, Google Books API, or custom CMS</li>
+    <li><strong>Authentication:</strong> Firebase Auth or OAuth providers (Google, Facebook)</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Entertainment enthusiasts who enjoy both films and literature</li>
+    <li>Mobile readers looking for lightweight novel-reading apps</li>
+    <li>Users looking for content curation in a single app experience</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Deliver a multi-format content experience in one mobile app.</li>
+    <li>Offer a scalable and visually rich user interface using React Native.</li>
+    <li>Leverage Expo for fast iteration and easier deployment across platforms.</li>
+    <li>Integrate APIs to serve up-to-date movie and book content dynamically.</li>
+  </ul>`,
     tech_stack: "React Native, Expo",
     images_carousel: [{ src: "images/tutureels-app.jpeg", alt: "Image 1" }],
   },
