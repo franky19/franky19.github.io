@@ -114,8 +114,7 @@ $(document).ready(function () {
     console.log("value:", value);
     if (value == "all") {
       $(".post").show("1000");
-    } 
-    else {
+    } else {
       $(".post")
         .not("." + value)
         .hide("1000");
@@ -172,7 +171,7 @@ const data = [
     name: "Tic Tac Toe Game",
     category: "Game",
     client: "Personal Project",
-    project_date: "",
+    project_date: "24 November 2023",
     project_url: "https://tictactoe-franky19.vercel.app",
     project_details: `
      <p>
@@ -216,7 +215,7 @@ const data = [
     name: "Todo List simple",
     category: "Web App",
     client: "Personal Project",
-    project_date: "",
+    project_date: "07 April 2022",
     project_url: "https://my-todo-nextjs.vercel.app/",
     project_details: `<p>
     The <strong>To-Do List Application</strong> is a simple and intuitive task management tool designed to help users organize their daily activities effectively.
@@ -263,7 +262,7 @@ const data = [
     name: "SBI OMFS",
     category: "Web App",
     client: "Dr Kai Lee",
-    project_date: "",
+    project_date: "17 January 2022 - 07 March 2022",
     project_url: "https://sbi-omfs.com.au/",
     project_details: `<p>
    To development a website survey of maxilofacial fractional on a clinic or hospital
@@ -301,7 +300,7 @@ const data = [
     name: "SBI OMFS Admin Panel",
     category: "Website",
     client: "Dr Kai Lee",
-    project_date: "",
+    project_date: "17 January 2022 - 07 March 2022",
     project_url: "https://sbi-omfs.com.au/admin",
     project_details: `<p>
    To development a website admin panel for survey of maxilofacial fractional on a clinic or hospital
@@ -338,7 +337,8 @@ const data = [
     name: "Company Profile Dr Kai Lee",
     category: "Website",
     client: "Dr Kai Lee",
-    project_date: ` <p>
+    project_date: "16 February 2023 - 10 September 2023",
+    project_details: ` <p>
     The <strong>Dr. Kai Lee Company Profile Website</strong> is a professional and elegant digital platform designed to showcase Dr. Kai Lee’s expertise, services, and achievements.
     This website serves as a comprehensive profile that reflects the credibility, values, and professionalism of Dr. Kai Lee, making it easier for patients, collaborators, and the general public to connect and engage.
   </p>
@@ -382,7 +382,6 @@ const data = [
     <li>Build brand recognition and digital authority in the medical field.</li>
   </ul>`,
     project_url: "https://drkaileeoms.com.au/",
-    project_details: "",
     tech_stack: "ReactJS, JavaScript / TypeScript, AWS S3, AWS Lambda, CSS",
     images_carousel: [{ src: "images/compre-drkai.png", alt: "Image 1" }],
   },
@@ -391,7 +390,8 @@ const data = [
     name: "Admin Panel Company Profile Dr Kai",
     category: "Website",
     client: "Dr Kai Lee",
-    project_date: ` <p>
+    project_date: "08 March 2023 - 14 June 2023",
+    project_details: ` <p>
     The <strong>Admin Panel for Dr. Kai Lee</strong> is a secure and user-friendly dashboard system that allows administrators and authorized staff to manage content, monitor activity, and oversee key operations on the main website. 
     This panel provides full control over data such as patient inquiries, blog articles, services, media, and more.
   </p>
@@ -435,7 +435,6 @@ const data = [
     <li>Support growth with scalability and performance optimization.</li>
   </ul>`,
     project_url: "https://admin-beta.drkailee.com/",
-    project_details: "",
     tech_stack:
       "ReactJS, JavaScript / TypeScript, AWS S3, AWS Lambda, CSS,SCSS/SASS",
     images_carousel: [{ src: "images/admin-compre.png", alt: "Image 1" }],
@@ -445,7 +444,7 @@ const data = [
     name: "Check Tense / Check Grammar",
     category: "Website",
     client: "Personal Project",
-    project_date: "",
+    project_date: "09 April 2023 - 06 May 2023",
     project_url: "https://my-grammar-2igcy2wln-franky19.vercel.app/",
     project_details: "",
     tech_stack: "ReactJS, TypeScript, Open AI Api, CSS",
@@ -456,7 +455,7 @@ const data = [
     name: "Comic List",
     category: "Website",
     client: "Personal Project",
-    project_date: "",
+    project_date: "23 July 2023 - 25 July 2023",
     project_url: "https://my-grammar-2igcy2wln-franky19.vercel.app/",
     project_details: ` <p>
     The <strong>Comic List</strong> is a responsive and interactive web application that allows users to explore, search, and manage a collection of comic books. Built using modern web technologies, the app provides an intuitive user experience for comic enthusiasts to browse by genre, author, title, or publisher using a fast and efficient GraphQL API.
@@ -556,6 +555,58 @@ const data = [
     images_carousel: [{ src: "images/tutureels.png", alt: "Image 1" }],
   },
   {
+    id: "10",
+    name: "Tutureels Apps",
+    category: "apps",
+    client: "Personal Project",
+    project_date: "20 September 2024 -  26 Mei 2025",
+    project_url: "https://play.google.com/store/apps/details?id=com.pitto.app",
+    project_details: `<p>
+    <strong>Tutureels</strong> is a mobile content application that offers users a rich and immersive experience for discovering, reading, and watching curated content across three categories: movies, films, and novels.
+    Designed for storytelling enthusiasts, the app allows users to explore a wide library of visual and written narratives from various genres and cultures.
+  </p>
+  <p>
+    The app is developed using <strong>React Native</strong> and powered by <strong>Expo</strong> for rapid cross-platform development, making it accessible on both Android and iOS devices with a smooth and responsive UI.
+  </p>
+
+  <h2>🎯 Core Features:</h2>
+  <ul>
+    <li>🎬 <strong>Movie & Film Catalog</strong> – Browse trailers, watch content (if allowed), and read synopses.</li>
+    <li>📖 <strong>Novel Library</strong> – Read digital novels with adjustable text size, night mode, and bookmarks.</li>
+    <li>🔍 <strong>Search & Filter</strong> – Find content by genre, title, author, director, or release year.</li>
+    <li>❤️ <strong>Favorites & Watchlist</strong> – Save content for later and manage your personal list.</li>
+    <li>🧠 <strong>Recommendations</strong> – AI-powered or curated suggestions based on user behavior or preferences.</li>
+    <li>🌐 <strong>Offline Access</strong> – Optional feature to download and read novels offline.</li>
+  </ul>
+
+  <h2>🛠️ Tech Stack:</h2>
+  <ul>
+    <li><strong>Framework:</strong> React Native</li>
+    <li><strong>Development Platform:</strong> Expo</li>
+    <li><strong>Backend (optional):</strong> Firebase / Node.js + Express</li>
+    <li><strong>Database:</strong> Firestore / SQLite / Supabase</li>
+    <li><strong>API:</strong> TMDB API, Google Books API, or custom CMS</li>
+    <li><strong>Authentication:</strong> Firebase Auth or OAuth providers (Google, Facebook)</li>
+  </ul>
+
+  <h2>👥 Target Users:</h2>
+  <ul>
+    <li>Entertainment enthusiasts who enjoy both films and literature</li>
+    <li>Mobile readers looking for lightweight novel-reading apps</li>
+    <li>Users looking for content curation in a single app experience</li>
+  </ul>
+
+  <h2>🚀 Project Goals:</h2>
+  <ul>
+    <li>Deliver a multi-format content experience in one mobile app.</li>
+    <li>Offer a scalable and visually rich user interface using React Native.</li>
+    <li>Leverage Expo for fast iteration and easier deployment across platforms.</li>
+    <li>Integrate APIs to serve up-to-date movie and book content dynamically.</li>
+  </ul>`,
+    tech_stack: "React Native, Expo",
+    images_carousel: [{ src: "images/tutureels-app.jpeg", alt: "Image 1" }],
+  },
+    {
     id: "10",
     name: "Tutureels Apps",
     category: "apps",
