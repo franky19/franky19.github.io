@@ -606,57 +606,68 @@ const data = [
     tech_stack: "React Native, Expo",
     images_carousel: [{ src: "images/tutureels-app.jpeg", alt: "Image 1" }],
   },
-    {
-    id: "10",
-    name: "Tutureels Apps",
-    category: "apps",
+  {
+    id: "11",
+    name: "OCR Web App for Text Extraction",
+    category: "Website",
     client: "Personal Project",
-    project_date: "20 September 2024 -  26 Mei 2025",
-    project_url: "https://play.google.com/store/apps/details?id=com.pitto.app",
-    project_details: `<p>
-    <strong>Tutureels</strong> is a mobile content application that offers users a rich and immersive experience for discovering, reading, and watching curated content across three categories: movies, films, and novels.
-    Designed for storytelling enthusiasts, the app allows users to explore a wide library of visual and written narratives from various genres and cultures.
-  </p>
+    project_date: "20 Juni 2026 - 26 Juni 2026",
+    project_url: "https://testing-ocr-olive.vercel.app/",
+    project_details: `
   <p>
-    The app is developed using <strong>React Native</strong> and powered by <strong>Expo</strong> for rapid cross-platform development, making it accessible on both Android and iOS devices with a smooth and responsive UI.
+    <strong>OCR Web App</strong> is a browser-based Optical Character Recognition (OCR) application that enables users to extract text from images instantly without installing additional software.
+    The platform is designed to provide a fast, lightweight, and user-friendly experience for converting image-based content into editable and searchable text.
+  </p>
+
+  <p>
+    Users can upload screenshots, scanned documents, receipts, invoices, notes, or any image containing text and receive extracted text results directly in the browser.
+    The application leverages modern OCR technology to deliver accurate text recognition while maintaining a simple and responsive user interface.
   </p>
 
   <h2>🎯 Core Features:</h2>
   <ul>
-    <li>🎬 <strong>Movie & Film Catalog</strong> – Browse trailers, watch content (if allowed), and read synopses.</li>
-    <li>📖 <strong>Novel Library</strong> – Read digital novels with adjustable text size, night mode, and bookmarks.</li>
-    <li>🔍 <strong>Search & Filter</strong> – Find content by genre, title, author, director, or release year.</li>
-    <li>❤️ <strong>Favorites & Watchlist</strong> – Save content for later and manage your personal list.</li>
-    <li>🧠 <strong>Recommendations</strong> – AI-powered or curated suggestions based on user behavior or preferences.</li>
-    <li>🌐 <strong>Offline Access</strong> – Optional feature to download and read novels offline.</li>
+    <li>📷 <strong>Image Upload</strong> – Upload PNG, JPG, JPEG, and other supported image formats.</li>
+    <li>🔍 <strong>OCR Text Recognition</strong> – Automatically detect and extract text from uploaded images.</li>
+    <li>📋 <strong>Copy Extracted Text</strong> – Easily copy recognized text for further editing or processing.</li>
+    <li>⚡ <strong>Real-Time Processing</strong> – Fast OCR processing directly within the web application.</li>
+    <li>🌐 <strong>Browser-Based Solution</strong> – No installation required, accessible from any modern browser.</li>
+    <li>📱 <strong>Responsive Design</strong> – Optimized for desktop, tablet, and mobile devices.</li>
   </ul>
 
   <h2>🛠️ Tech Stack:</h2>
   <ul>
-    <li><strong>Framework:</strong> React Native</li>
-    <li><strong>Development Platform:</strong> Expo</li>
-    <li><strong>Backend (optional):</strong> Firebase / Node.js + Express</li>
-    <li><strong>Database:</strong> Firestore / SQLite / Supabase</li>
-    <li><strong>API:</strong> TMDB API, Google Books API, or custom CMS</li>
-    <li><strong>Authentication:</strong> Firebase Auth or OAuth providers (Google, Facebook)</li>
+    <li><strong>Frontend:</strong> React.js</li>
+    <li><strong>Framework:</strong> Next.js</li>
+    <li><strong>OCR Engine:</strong> Tesseract.js</li>
+    <li><strong>Language:</strong> TypeScript</li>
+    <li><strong>Styling:</strong> Tailwind CSS</li>
+    <li><strong>Deployment:</strong> Vercel</li>
   </ul>
 
   <h2>👥 Target Users:</h2>
   <ul>
-    <li>Entertainment enthusiasts who enjoy both films and literature</li>
-    <li>Mobile readers looking for lightweight novel-reading apps</li>
-    <li>Users looking for content curation in a single app experience</li>
+    <li>Students digitizing notes and study materials.</li>
+    <li>Office workers extracting text from scanned documents.</li>
+    <li>Content creators converting screenshots into editable content.</li>
+    <li>Businesses processing invoices, receipts, and printed documents.</li>
   </ul>
 
   <h2>🚀 Project Goals:</h2>
   <ul>
-    <li>Deliver a multi-format content experience in one mobile app.</li>
-    <li>Offer a scalable and visually rich user interface using React Native.</li>
-    <li>Leverage Expo for fast iteration and easier deployment across platforms.</li>
-    <li>Integrate APIs to serve up-to-date movie and book content dynamically.</li>
-  </ul>`,
-    tech_stack: "React Native, Expo",
-    images_carousel: [{ src: "images/tutureels-app.jpeg", alt: "Image 1" }],
+    <li>Provide a fast and accessible OCR solution directly from the browser.</li>
+    <li>Eliminate the need for desktop OCR software installations.</li>
+    <li>Deliver accurate text extraction with a clean user experience.</li>
+    <li>Enable users to digitize text efficiently from various image sources.</li>
+  </ul>
+  `,
+    tech_stack:
+      "Next.js, React.js, TypeScript, Tailwind CSS, Tesseract.js, Vercel",
+    images_carousel: [
+      {
+        src: "images/ocr-web-app.jpeg",
+        alt: "OCR Web App Screenshot",
+      },
+    ],
   },
 ];
 
