@@ -153,7 +153,7 @@
           </a>
 
           <a
-            href="https://testing-ocr-olive.vercel.app/retail-outlet"
+            href="https://1.smartfren.com/activation/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Registrasi Smartfren"
@@ -211,14 +211,13 @@
           // Hanya Smartfren yang memanggil API
           if (provider.toLowerCase() === "smartfren") {
             const response = await fetch(
-              "https://testing-ocr-olive.vercel.app/api/token-ro",
+              "https://1.smartfren.com/activation/api/token-ro",
               {
                 method: "POST",
                 credentials: "include",
                 headers: {
                   "Content-Type": "application/json",
-                  Authorization: "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImV4cGlyZXNJbiI6MTkxMDEzNzU4NiwiaXNzdWVyIjoiU0lESVZBIn0.eyJpc3N1ZWRBdCI6MTc4MzkzMjM4NiwiaXNXaGl0ZWxpc3RSbyI6dHJ1ZSwicm9JZCI6IjU4NzM2MjEifQ.YvtstDw51O2lowSZFhCAHf4vSCnHCFa0SzlcIZlz-QG4gPV1N0f-uxPhegmH6XL5ZBU9n1KV4J_IugfIihp8_g",
-                },
+                  Authorization: "eyJhbGciOiJFQ0RILUVTIiwiZW5jIjoiQTI1NkdDTSIsImVwayI6eyJ4IjoiV2ZaOUVuVndqRG1DMnhTeWpHQXlUVHdKdXUzT25UT1VNdVkzb0xjVFJ1USIsImNydiI6IlAtMjU2Iiwia3R5IjoiRUMiLCJ5IjoieHgzY1l3QVdDWGJib01aeHVWSTdobEFkWXN4N2dzSmlJQ0QwYldGUF9IOCJ9fQ..fyb55Ek5kF0avRPa.BuQvcuuavVRvEHl6mQyLJOHpONHyMv0NJfhpFC0qfdQXnW3WcJx6YdIYrC8u0F6-k3CucX3sZRss6_XT_H4BkbJjqX6KC8MBow_Bfc32kb4RmpYXJXnxUw4PMetjfiShEjkMUBWPibOSRnOfE4jNj8KtHDouYe3nkFPxEm36JYlA8zyVRSSeoAw2DIjcPQryebsjWJEp7OKFXcGsEx24.2qdjUVbSVU1peSotQRTLfw"},
                 body: JSON.stringify({
                   provider,
                 }),
